@@ -1,0 +1,12 @@
+# Copyright (C) 2025 Infineon Technologies
+# SPDX-License-Identifier: Apache-2.0
+
+# Manifest file that can be used as a submanifest
+
+manifest:
+  projects:
+    - name: zephyr-manifest
+      url: https://github.com/hakanjansson/zephyr-manifest.git
+      revision: main
+      import:
+        path-prefix: hakanjansson/

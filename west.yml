@@ -1,0 +1,12 @@
+# Copyright (C) 2025 Infineon Technologies
+# SPDX-License-Identifier: Apache-2.0
+
+manifest:
+  projects:
+    - name: zephyr-vscode
+      url: https://github.com/hakanjansson/zephyr-vscode.git
+      revision: main
+    - name: zephyr-helpers
+      url: https://github.com/hakanjansson/zephyr-helpers.git
+      revision: main
+      import: true
