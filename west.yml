@@ -5,8 +5,8 @@ manifest:
   projects:
     - name: zephyr-vscode
       url: https://github.com/hakanjansson/zephyr-vscode.git
-      revision: main
+      revision: refs/heads/2025_01
     - name: zephyr-helpers
       url: https://github.com/hakanjansson/zephyr-helpers.git
-      revision: main
+      revision: refs/heads/2025_01
       import: true

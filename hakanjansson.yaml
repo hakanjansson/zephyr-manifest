@@ -7,6 +7,6 @@ manifest:
   projects:
     - name: zephyr-manifest
       url: https://github.com/hakanjansson/zephyr-manifest.git
-      revision: main
+      revision: refs/heads/2025_01
       import:
         path-prefix: hakanjansson/
