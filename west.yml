@@ -12,5 +12,5 @@ manifest:
       import: true
     - name: zephyr-mcubootapp
       url: https://github.com/hakanjansson/zephyr-mcubootapp.git
-      revision: main
-      import: true
+      revision: topic/mcuboot_submodule
+      submodules: true
